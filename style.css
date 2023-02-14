@@ -453,9 +453,7 @@ border-radius: 3px;
 }
 
 @media (max-width:1050px){
-    .background .top .flex{
-        /* width: 75% */
-    }
+
     .raftadetails{
         margin-left: 0%;
     }
