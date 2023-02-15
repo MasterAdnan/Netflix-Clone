@@ -779,24 +779,62 @@ border-radius: 3px;
 }
 
 @media(max-width:650px){
-.background{
-        height: 94vh;
+    .background {
+        height: 78vh;
     }
-/* .background .top .flex {
-    width: 300%;
-    margin-top: 4%;
-} */
-.flex1 {
-    padding-right: 8%;
-}
-.concept3 .enjoy {
-    margin-left: 17%;
-}
+    .flex i {
+        transform: translate(34px,-4px);
+    }
+    .background .top select {
+        width: 35%;
+    }
+    .background .top .img {
+        width: 75%;
+    }
+    .background .top img {
+        height: 15vh;
+        width: 30%;
+    }
+    .btn {
+        width: 30%;
+    }
+    .concept {
+        margin-top: 4%;
+    }
+    .concept h1{
+        font-size: xx-large;
+    }
+    .concept-1 h2 {
+        font-size: medium;
+    }
+    .concept-2 h3{
+        font-size: medium;
+    }
+    .concept3 .enjoy {
+        text-align: center;
+        margin-right: 25%;
+        padding-top: 13px;
+    }
 .concept3 {
-    height: 92vh;
+    height: 61vh;
+    padding: 0px;
+}
+.concept3 .enjoy h5{
+    font-size: small;
+}
+#e{
+    font-size: xx-large;
+}
+#ev{
+    font-size: small;
 }
 .gif img {
-    margin-top: 11%;
+    margin-top: 3%;
+    height: 35vh;
+    width: 55%;
+}
+.rdpage{
+    height: 105vh;
 }
 .rdpage .rafta img{
     margin-top: 12%;
@@ -804,23 +842,55 @@ border-radius: 3px;
 .rdpage .downloading .icon .img img {
     margin-left: 52%;
 }
+.fu {
+    margin-left: 0%;
+    margin-right: 24%;
+    text-align: center;
+}
+.wu {
+    height: 105vh;
+}
+.freq {
+    padding-top: 25px;
+    height: 190vh;
+}
+.flex1 {
+    margin-bottom: 5%;
+    padding-right: 8%;
+}
+.footer .q p {
+    margin-right: 55%;
+    margin-top: 0%;
+    margin-right: 70%;
+    line-height: 4;
+}
 }
 
 @media(max-width:600px){
 .background {
     height: 75vh;
 }
-.background .top select{
-    width: 30%;
+.background .top select {
+    width: 35%;
 }
-.flex i{
-    transform: translate(20px,-2px);
+.background .top .img {
+    width: 50%;
+}
+.background .top img {
+    height: 15vh;
+    width: 32%;
+}
+.flex i {
+    transform: translate(45px,-4px);
+}
+.btn {
+    width: 26%;
 }
 .background .top .flex {
     margin-top: 4%;
 } 
-.concept{
-    margin-top: 16%;
+.concept {
+    margin-top: 3%;
 }
 .concept h1{
     font-size: xx-large;
@@ -855,22 +925,29 @@ border-radius: 3px;
     font-size: large;
 }
 .concept3{
-    height: 78vh;
+    height: 65vh;
     text-align: center;
+    padding: 0px;
+    padding-top: 20px;
+    padding-left: 0px;
 }
 .gif img {
-    width: 75%;
+    height: 30vh;
+    width: 55%;
     margin-left: 0%;
-    margin-top: 7%;
+    margin-top: 2%;
 }
-.raftadetails {
-    padding-bottom: 5%;
+.raftadetails{
+    padding-bottom: 0%;
+    margin-left: 0%;
+    padding-top: 0%;
+    text-align: center;
 }
 .raftadetails h1{
     font-size: xx-large;
 }
-.rdpage{
-    height: 101vh;
+.rdpage {
+    height: 90vh;
 }
 .rdpage .rafta img {
     margin-top: 0%;
@@ -878,6 +955,7 @@ border-radius: 3px;
 .rdpage .rafta img {
     width: 38%;
     margin-left: 32%;
+    padding-top: 15px;
 }
 .rdpage .downloading{
     margin-left: 30%;
@@ -889,24 +967,25 @@ border-radius: 3px;
 .watch .everywhere {
     font-size: large;
     margin-left: 0%;
-    padding-top: 20px;
+    padding-top: 0px;
     margin-right: 5%;
 }
 .watch .pathan img {
-    margin-left: 3%;
-    height: 48vh;
-    width: 90%;
+    margin-left: 0%;
+    height: 35vh;
+    width: 70%;
 }
 .wu {
-height: 103vh;
-text-align: center;
+    height: 80vh;
+    text-align: center;
 }
 .fu{
     padding-top: 0%;
     margin-top: 0%;
     margin-bottom: 0%;
     margin-right: 20%;
-}
+    text-align: center;
+}  
 .fu h1{
     font-size: xx-large;
 }
@@ -917,18 +996,25 @@ font-size: small;
     font-size: small;
 }
 .children img {
-    margin-left: 2%;
-    margin-top: 4%;
-}
-.raftadetails{
     margin-left: 0%;
+    margin-top: 0%;
+    height: 50vh;
 }
 .faq{
     flex-direction: column;
     margin-left: 10%;
 }
 .freq {
-    height: 280vh;
+    padding-top: 20px;
+    height: 255vh;
+}
+.flex1 {
+    margin-bottom: 5%;
+}
+.footer .q p {
+    margin-top: 2%;
+    margin-right: 55%;
+    line-height: 3;
 }
 }
   
@@ -1122,16 +1208,20 @@ margin-top: 3%;
     margin-top: 0%;
 }    
 .rdpage .downloading .icon .img img {
-    width: 86%;
+    width: 90%;
     height: 8vh;
-    margin-left: 100%;
+    margin-left: 110%;
+    padding-bottom: 7px;
 }
 .watch .everywhere {
+    font-size: large;
     margin-left: 0%;
+    padding-top: 10px;
+    margin-right: 5%;
 }
 .watch .pathan img {
     margin-left: 0%;
-    height: 25vh;
+    height: 26vh;
     width: 75%;
 }
 .fu {
