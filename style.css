@@ -8,6 +8,7 @@
 
 .background{
     background-image: url(/images/netflix\ BG.jpg);
+    background-size: cover;
     height: 105vh;   
     width: 100%;
 }
