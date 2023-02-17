@@ -1025,7 +1025,7 @@ font-size: small;
         margin-top: 1%;
     }
     .background {
-        height: 72vh;
+        height: 65vh;
     }
     .background .top .img {
         width: 50%;
@@ -1035,7 +1035,7 @@ font-size: small;
         width: 35%;
     }
     .background .top select {
-        width: 35%;
+        width: 37%;
     }   
     .btn {
         width: 30%;
@@ -1060,11 +1060,12 @@ font-size: small;
         margin-top: 0%;
     }
     .concept3 {
-        height: 58vh;
+        height: 55vh;
     }
     .concept3 .enjoy {
         text-align: center;
-        margin-top: -6%;
+        margin-top: 0%;
+        margin-right: 0%;
     }
     #w {
         line-height: 1.4;
@@ -1086,7 +1087,7 @@ font-size: small;
         width: 70%;
     }
     .freq {
-        height: 258vh;
+        height: 247vh;
         padding-top: 20px;
     }
     .flex1 {
@@ -1096,8 +1097,6 @@ font-size: small;
         margin-top: 0%;
         margin-right: 44%;
     }
-    }
-
 .concept-1{
     line-height: 2.1;
 }
@@ -1152,11 +1151,14 @@ font-size: small;
     height: 13vh;
 }
 .background .top .img{
-    width: 42%;
+    width:65%;
 }
 .background .top select {
-    width: 44%;
+    width: 65%;
 }
+.background .top .flex {
+    margin-top: 3%;
+    }
 .btn {
     border: 1px solid gray;
     width: 50%;
@@ -1169,14 +1171,8 @@ font-size: small;
 .btn .sub {
     margin-top: 3%;
 }
-.background .top .flex {
-margin-top: 3%;
-}
 .flex i {
     transform: translate(25px,-2px);
-}
-.background .top .img{
-    width:65%;
 }
 .flex .button button {
     width: 124%;
@@ -1188,14 +1184,22 @@ margin-top: 3%;
 .concept-2 {
     margin-top: 10%;
 }
+.concept3{
+    height: 48vh;
+}
 .concept3 .enjoy {
+    margin-top: -4%;
     margin-left: 0%;
+    margin-right: 0%;
 }
 .gif img {
-    height: 30vh;
-    width: 75%;
+    height: 26vh;
+    width: 65%;
     margin-left: 0%;
-    margin-top: 2%;
+    margin-top: 1%;
+}
+.rdpage{
+    height: 80vh;
 }
 .rdpage .downloading {
     margin-left: 26%;
@@ -1239,7 +1243,7 @@ margin-top: 3%;
     height: 68vh;
 }
 .freq {
-    height: 237vh;
+    height: 227vh;
     padding-top: 0px;
 }
 .freq h1 {
@@ -1325,9 +1329,14 @@ margin-top: 3%;
     height: 8vh;
     font-size: smaller;
 }
+.concept3 {
+    height: 60vh;
+}
 .concept3 .enjoy {
     margin-left: 0%;
     margin-top: 0%;
+    margin-right: 0%;
+    padding-top: 0%;
 }
 .enjoy #ev{
     font-size: small;
@@ -1340,9 +1349,6 @@ margin-top: 3%;
     width: 78%;
     margin-left: 0%;
     margin-top: 7%;
-}
-.concept3 {
-    height: 65vh;
 }
 .rdpage {
     height: 84vh;
@@ -1456,6 +1462,7 @@ margin-top: 3%;
 .concept3 .enjoy {
     margin-left: 0%;
     margin-top: 0%;
+    margin-right: 0%;
 }
 .gif img {
     height: 28vh;
