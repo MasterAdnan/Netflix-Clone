@@ -995,6 +995,28 @@ font-size: small;
 
 
 @media(max-width:550px){
+
+    
+    .btn {
+        border: 1px solid gray;
+        width: 38%;
+        height: 5vh;
+        color: white;
+        text-align: center;
+        background-color: RED;
+        margin-left: 0%;
+    }
+
+    .sel input {
+        margin-left: 18%;
+        width: 150%;
+        height: 8vh;
+    }
+    .button1 .button {
+        width: 108%;
+        height: 8vh;
+        font-size: smaller;
+    } 
     .concept {
         margin-top: 1%;
     }
@@ -1120,6 +1142,27 @@ font-size: small;
 
 
 @media(max-width:500px){
+
+    .btn {
+        border: 1px solid gray;
+        width: 38%;
+        height: 5vh;
+        color: white;
+        text-align: center;
+        background-color: RED;
+        margin-left: 0%;
+    }
+
+    .sel input {
+        margin-left: 18%;
+        width: 150%;
+        height: 8vh;
+    }
+    .button1 .button {
+        width: 108%;
+        height: 8vh;
+        font-size: smaller;
+    }
 .background .top img {
     width: 40%;
     height: 13vh;
@@ -1309,11 +1352,11 @@ font-size: small;
 .sel input {
     margin-left: 18%;
     width: 150%;
-    height: 8vh;
+    height:6vh;
 }
 .button1 .button {
     width: 108%;
-    height: 8vh;
+    height: 6vh;
     font-size: smaller;
 }
 .concept3 {
