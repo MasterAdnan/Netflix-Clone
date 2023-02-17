@@ -1259,8 +1259,8 @@ font-size: small;
     width: 50%;
 }
 .background .top img {
-    width: 50%;
-    height: 13vh;
+    width: 55%;
+    height: 15vh;
 }
 .background .top select {
     width: 45%;
@@ -1365,6 +1365,11 @@ font-size: small;
     width: 50%;
     height: 12vh;
 }
+.watch .pathan img {
+    margin-left: 0%;
+    height: 23vh;
+    width: 80%;
+}
 .wu {
     height: 65vh;
 }
@@ -1384,11 +1389,11 @@ font-size: small;
 }
 .children img {
     margin-left: 0%;
-    height: 40vh;
+    height: 38vh;
     width: 70%;
 }
 .freq {
-    height: 225vh;
+    height: 222vh;
 }
 .footer .faq{
     text-align: left;
@@ -1674,7 +1679,7 @@ font-size: small;
 }
 .fu {
     margin-left: 0%;
-    margin-right: 13%;
+    margin-right: 0%;
 }
 .fu h1 {
     font-size: x-large;
@@ -1689,14 +1694,14 @@ font-size: small;
     text-align: center;
 }
 .wu {
-    height: 61vh;
+    height: 58vh;
 }
 .children img {
     height: 38vh;
     width: 80%;
 }
 .freq {
-    height: 208vh;
+    height: 190vh;
 }
 .freq h1 {
     font-size: larger;
@@ -1705,9 +1710,6 @@ font-size: small;
 .flex1 .sel {
     margin-left: 0%;
 }
-.flex1 .button1 button{
-
-}
 .footer .q p {
     margin-right: 10%;
     margin-top: 0%;
@@ -1715,7 +1717,6 @@ font-size: small;
 }
 .footer .faq {
     text-align: left;
-    /* margin-left: 8%; */
 }
 .faq ul li {
     list-style: none;
