@@ -1312,6 +1312,12 @@ font-size: small;
     width: 50%;
     margin-top: 5%;
 }
+.flex1{
+    flex-direction: column;
+}
+.flex1 .sel{
+    width: 50%;
+}
 .flex i {
     font-size: smaller;
     transform: translate(23px);
@@ -1354,8 +1360,11 @@ font-size: small;
     width: 150%;
     height:6vh;
 }
+.button1 {
+    text-align: center;
+}
 .button1 .button {
-    width: 108%;
+    width: 50%;
     height: 6vh;
     font-size: smaller;
 }
